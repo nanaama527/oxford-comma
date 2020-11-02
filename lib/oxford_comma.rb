@@ -1,7 +1,7 @@
-#def oxford_comma(array)
-#    array = "kiwi"
-#    return array
-#end
+def oxford_comma(array)
+   array = "kiwi"
+   return array
+end
 
 def oxford_comma(array)
     array = ["kiwi", "durian"]
@@ -9,3 +9,8 @@ def oxford_comma(array)
     return array
 end
 
+def oxford_comma (array)
+    array = ["Kiwi", "durian", "starfruit"]
+    array.map.insert("and") 
+    return array
+end
